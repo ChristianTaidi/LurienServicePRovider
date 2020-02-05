@@ -2,8 +2,10 @@ package com.christian.lurien.demo.service.impl;
 
 import antlr.Token;
 import com.christian.lurien.demo.contracts.HelloWorld;
+import com.christian.lurien.demo.contracts.TestLurien;
 import com.christian.lurien.demo.pojos.Claim;
 import com.christian.lurien.demo.service.ClaimDeployService;
+import com.christian.lurien.demo.service.ContractEventObserverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.stereotype.Service;
@@ -37,6 +39,9 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Autowired
     private Web3j web3j;
 
+    @Autowired
+    private ContractEventObserverService observerService;
+
     private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000000000L);
     private static final BigInteger GAS_LIMIT = BigInteger.valueOf(6722975L);
 
@@ -53,8 +58,8 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Override
     public String deployClaim(Claim claim) throws Exception {
 
-        HelloWorld contract = HelloWorld.deploy(web3j,credentials,GAS_PRICE, GAS_LIMIT).send();
-        Contract getContract =  ;
+        TestLurien contract = TestLurien.deploy(web3j, credentials, GAS_PRICE, GAS_LIMIT).send();
+        observerService.manageContractEvent(contract);
         return contract.getContractAddress();
 
     }
