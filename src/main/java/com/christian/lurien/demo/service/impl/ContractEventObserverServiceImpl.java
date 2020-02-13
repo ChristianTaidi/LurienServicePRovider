@@ -6,12 +6,15 @@ import com.christian.lurien.demo.repository.ClaimRepository;
 import com.christian.lurien.demo.service.ContractEventObserverService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameterName;
 import org.web3j.tx.Contract;
 
+import java.util.Arrays;
 import java.util.Map;
 
+@Service
 public class ContractEventObserverServiceImpl implements ContractEventObserverService {
 
     @Autowired
@@ -26,8 +29,14 @@ public class ContractEventObserverServiceImpl implements ContractEventObserverSe
     public void manageContractEvent(TestLurien deployedContract) {
         deployedContract.claimFilledEventFlowable(DefaultBlockParameterName.EARLIEST,DefaultBlockParameterName.LATEST)
                 .subscribe(event ->{
-                    final String claimData = String.valueOf(event._filledClaim);
-                    Map<String, Claim> map = mapper.readValue(claimData, Map.class);
+                    //ToDo test the event listening and do it in a separate thread after contract is deployed
+                    final String claimData = event._filledClaim;
+                    Map<String, String> map = mapper.readValue(claimData, Map.class);
+
+                    for(String key:map.keySet()){
+                        System.out.println(key+":"+map.get(key));
+
+                    }
                 });
     }
 }

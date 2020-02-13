@@ -42,8 +42,11 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Autowired
     private ContractEventObserverService observerService;
 
-    private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000000000L);
-    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(6722975L);
+    //private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000000000L);
+    //private static final BigInteger GAS_LIMIT = BigInteger.valueOf(6722975L);
+    private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000L);
+    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
+
 
     @PostConstruct
     public void init() throws IOException, CipherException, InvalidAlgorithmParameterException, NoSuchAlgorithmException, NoSuchProviderException {
@@ -58,8 +61,10 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Override
     public String deployClaim(Claim claim) throws Exception {
 
+        Credentials credentials = Credentials.create(ECKeyPair.create( new BigInteger("eb825863157f00f5e926183ab5512e376d770cdcbda8e3e927cfb55f3204e02c",16)));
         TestLurien contract = TestLurien.deploy(web3j, credentials, GAS_PRICE, GAS_LIMIT).send();
         observerService.manageContractEvent(contract);
+        System.out.println(contract.getContractAddress());
         return contract.getContractAddress();
 
     }
