@@ -28,6 +28,7 @@ import java.math.BigInteger;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
+import java.util.concurrent.ExecutionException;
 
 import static org.hibernate.bytecode.BytecodeLogger.LOGGER;
 
@@ -42,10 +43,12 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Autowired
     private ContractEventObserverService observerService;
 
-    //private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000000000L);
-    //private static final BigInteger GAS_LIMIT = BigInteger.valueOf(6722975L);
-    private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000L);
+    //Gas values for Rinkeby network
+    private static final BigInteger GAS_PRICE = BigInteger.valueOf(999000000000L);
     private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
+    //Gas values for local network
+//    private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000L);
+//    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
 
 
     @PostConstruct
@@ -54,6 +57,13 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
         ECKeyPair aPair = ECKeyPair.create(privateKeyInBT);
         credentials = Credentials.create(aPair);
         //credentials = WalletUtils.loadBip39Credentials(null,"twice require display resemble execute suffer celery digital ignore tackle chicken soldier");
+        EthGetBalance ethGetBalance = null;
+            ethGetBalance = web3j
+                        .ethGetBalance(credentials.getAddress(), DefaultBlockParameterName.LATEST)
+                        .send();
+
+//
+        System.out.println(ethGetBalance.getBalance());
         LOGGER.info("Credentials created: file={}, address={"+credentials.getAddress()+"}");
 
     }
@@ -61,11 +71,11 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Override
     public String deployClaim(Claim claim) throws Exception {
 
-        Credentials credentials = Credentials.create(ECKeyPair.create( new BigInteger("eb825863157f00f5e926183ab5512e376d770cdcbda8e3e927cfb55f3204e02c",16)));
-        TestLurien contract = TestLurien.deploy(web3j, credentials, GAS_PRICE, GAS_LIMIT).send();
+        TestLurien contract = TestLurien.deploy(web3j, this.credentials, GAS_PRICE, GAS_LIMIT).send();
         observerService.manageContractEvent(contract);
         System.out.println(contract.getContractAddress());
         return contract.getContractAddress();
+
 
     }
 
