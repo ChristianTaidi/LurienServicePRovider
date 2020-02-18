@@ -44,7 +44,7 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     private ContractEventObserverService observerService;
 
     //Gas values for Rinkeby network
-    private static final BigInteger GAS_PRICE = BigInteger.valueOf(999000000000L);
+    private static final BigInteger GAS_PRICE = BigInteger.valueOf(2000000L);
     private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
     //Gas values for local network
 //    private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000L);
