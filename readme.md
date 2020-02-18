@@ -1,3 +1,8 @@
+### Required accounts
+- Firebase
+- Infura
+- Metamask
+
 ### Compile smart contract .sol file into java file
 
      sudo docker run --rm -v '/home/indizenlabs/Escritorio/':'/contract' -w '/contract' ethereum/solc:stable '/contract/claimRequest.sol' --bin --abi --optimize -o '/contract'
