@@ -7,5 +7,5 @@ import org.springframework.web.servlet.ModelAndView;
 
 public interface RegisterRequestController {
 
-    ModelAndView getAssert(String userIdentifier, Model model);
+    ModelAndView getClaim(String userIdentifier, Model model);
 }

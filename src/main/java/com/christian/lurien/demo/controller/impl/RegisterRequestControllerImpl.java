@@ -8,8 +8,7 @@ import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,7 +27,7 @@ public class RegisterRequestControllerImpl implements RegisterRequestController 
 
     @GetMapping("/assert")
     @Override
-    public ModelAndView getAssert(String userIdentifier, Model model){
+    public ModelAndView getClaim(String userIdentifier, Model model){
         System.out.println(registerService.getClass());
         ModelAndView mav = new ModelAndView("index");
         //ToDo call the assert service in order to deploy a new smart contract, get the contract address, and return it as qr code

@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SPController {
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public ModelAndView showIndex(Model model) {
         ModelAndView mav = new  ModelAndView("index");
         //model.addAttribute("qrcode",null);

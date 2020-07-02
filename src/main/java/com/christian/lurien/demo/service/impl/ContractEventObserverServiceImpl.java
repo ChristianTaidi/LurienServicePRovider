@@ -31,12 +31,15 @@ public class ContractEventObserverServiceImpl implements ContractEventObserverSe
                 .subscribe(event ->{
                     //ToDo test the event listening and do it in a separate thread after contract is deployed
                     final String claimData = event._filledClaim;
-                    Map<String, String> map = mapper.readValue(claimData, Map.class);
+                    Map<String, Map<String,String>> map = mapper.readValue(claimData, Map.class);
 
-                    for(String key:map.keySet()){
-                        System.out.println(key+":"+map.get(key));
+                    Map<String,String> data = map.get("data");
+                    for(String key:data.keySet()){
+                        String value = data.get(key);
+                        System.out.println(key+":"+data.get(key));
 
                     }
+                    System.out.println(map.get("signature"));
                 });
     }
 }

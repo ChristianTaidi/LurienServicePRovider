@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -35,7 +36,7 @@ public class ClaimRepositoryTest {
     public void init(){
         Claim claim = mockClaim();
         claim.setId(1L);
-        when(mockRepository.findAll()).thenReturn(List.of(claim));
+        when(mockRepository.findAll()).thenReturn(Arrays.asList(claim));
         when(mockRepository.findById(1L)).thenReturn(Optional.of(claim));
         when(mockRepository.save(any(Claim.class))).thenReturn(claim);
     }
