@@ -7,6 +7,7 @@ import com.christian.lurien.demo.service.ContractEventObserverService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.web3j.abi.datatypes.Bool;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameterName;
 import org.web3j.tx.Contract;
@@ -31,11 +32,17 @@ public class ContractEventObserverServiceImpl implements ContractEventObserverSe
                 .subscribe(event ->{
                     //ToDo test the event listening and do it in a separate thread after contract is deployed
                     final String claimData = event._filledClaim;
-                    Map<String, Map<String,String>> map = mapper.readValue(claimData, Map.class);
+                    Map<String, Map<String,Object>> map = mapper.readValue(claimData, Map.class);
 
-                    Map<String,String> data = map.get("data");
+                    Map<String,Object> data = map.get("data");
                     for(String key:data.keySet()){
-                        String value = data.get(key);
+                        if(data.get(key).getClass().equals(Boolean.class)){
+                            Boolean value = (Boolean) data.get(key);
+                        }else if(data.get(key).getClass().equals(Double.class)) {
+                            Double testMark = (Double)data.get(key);
+                        }else{
+                            String value = (String) data.get(key);
+                        }
                         System.out.println(key+":"+data.get(key));
 
                     }

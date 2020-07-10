@@ -48,7 +48,7 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
 //    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
     //Gas values for local network
     private static final BigInteger GAS_PRICE = BigInteger.valueOf(20000L);
-    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(672290L);
+    private static final BigInteger GAS_LIMIT = BigInteger.valueOf(6721975L);
 
 
     @PostConstruct
@@ -73,7 +73,7 @@ public class ClaimDeployServiceImpl implements ClaimDeployService {
     @Override
     public String deployClaim(Claim claim) throws Exception {
 
-        TestLurien contract = TestLurien.deploy(web3j, this.credentials, GAS_PRICE, GAS_LIMIT).send();
+        TestLurien contract = TestLurien.deploy(web3j, this.credentials, GAS_PRICE, GAS_LIMIT,credentials.getEcKeyPair().getPublicKey().toString()).send();
         //TestLurien remoteContract = TestLurien.load("0xbF833D198101afEC77fD65C533642a71d8DdDe1a", web3j, credentials, GAS_PRICE, GAS_LIMIT);
 
         observerService.manageContractEvent(contract);
