@@ -1,0 +1,50 @@
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n y objetivos}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Contexto}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Objetivo}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Planificaci\363n}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Estructura}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Terminolog\355a}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Identidad digital y blockchain}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Identidad digital}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Tipos de identidad digital}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Autenticaci\363n y Verificaci\363n}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{Autenticaci\363n}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.4}{Verificaci\363n}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.5}{Aspectos legales}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{Introducci\363n a Blockchain}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Tipos de blockchain}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Estructura}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Protocolo}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{Algoritmos de consenso}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{Dificultad}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.6}{Criptograf\355a}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.7}{Wallet}{section.2.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Ethereum}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{Smart Contract}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{Ciclo de vida}{section.2.3}% 24
+\BOOKMARK [0][-]{chapter.3}{Casos de uso de blockchain e identidad digital}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Proceso KYC \(Know Your Customer\)}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.1.1}{Motivaci\363n}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.2}{Soluciones}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{Self Sovereign Identity SSI}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Motivaci\363n}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.2}{Problemas}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.3}{Soluciones}{section.3.2}% 32
+\BOOKMARK [0][-]{chapter.4}{Caso de uso: Alta en la universidad con registro del proceso KYC en Ethereum}{}% 33
+\BOOKMARK [1][-]{section.4.1}{Motivaci\363n}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Elementos}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{Proceso}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.4}{Requisitos}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.5}{Prototipo}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.5.1}{Service Provider}{section.4.5}% 39
+\BOOKMARK [2][-]{subsection.4.5.2}{Wallet de usuario}{section.4.5}% 40
+\BOOKMARK [2][-]{subsection.4.5.3}{Smart contract}{section.4.5}% 41
+\BOOKMARK [2][-]{subsection.4.5.4}{Red Ethereum}{section.4.5}% 42
+\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Problemas encontrados}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.1.1}{Dudas iniciales para enfocar el caso de uso}{section.5.1}% 45
+\BOOKMARK [2][-]{subsection.5.1.2}{Desarrollo desde cero}{section.5.1}% 46
+\BOOKMARK [2][-]{subsection.5.1.3}{Uso de Alastria}{section.5.1}% 47
+\BOOKMARK [2][-]{subsection.5.1.4}{Muchos componentes interdependientes}{section.5.1}% 48
+\BOOKMARK [2][-]{subsection.5.1.5}{Red remota e Infura}{section.5.1}% 49
+\BOOKMARK [1][-]{section.5.2}{Trabajo futuro}{chapter.5}% 50

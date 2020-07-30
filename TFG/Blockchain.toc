@@ -1,0 +1,102 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n y objetivos}{4}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Contexto}{4}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objetivo}{4}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Planificaci\IeC {\'o}n}{5}{section.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Estructura}{6}{section.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Terminolog\IeC {\'\i }a}{6}{section.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Identidad digital y blockchain}{8}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Identidad digital}{8}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Tipos de identidad digital}{8}{subsection.2.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Autenticaci\IeC {\'o}n y Verificaci\IeC {\'o}n}{9}{subsection.2.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Autenticaci\IeC {\'o}n}{9}{subsection.2.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Verificaci\IeC {\'o}n}{9}{subsection.2.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.5}Aspectos legales}{10}{subsection.2.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Introducci\IeC {\'o}n a Blockchain}{10}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Tipos de blockchain}{12}{subsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Estructura}{12}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Protocolo}{13}{subsection.2.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Algoritmos de consenso}{13}{subsection.2.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Dificultad}{14}{subsection.2.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.6}Criptograf\IeC {\'\i }a}{15}{subsection.2.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.7}Wallet}{15}{subsection.2.2.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Ethereum}{16}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Smart Contract}{16}{subsection.2.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Ciclo de vida}{17}{subsection.2.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Casos de uso de blockchain e identidad digital}{19}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Proceso KYC (Know Your Customer)}{19}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Motivaci\IeC {\'o}n}{19}{subsection.3.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Soluciones}{20}{subsection.3.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Self Sovereign Identity SSI}{20}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Motivaci\IeC {\'o}n}{20}{subsection.3.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Problemas}{21}{subsection.3.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Soluciones}{21}{subsection.3.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Caso de uso: Alta en la universidad con registro del proceso KYC en Ethereum}{22}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Motivaci\IeC {\'o}n}{22}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Elementos}{22}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Proceso}{23}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Requisitos}{24}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Prototipo}{25}{section.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Service Provider}{26}{subsection.4.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Wallet de usuario}{26}{subsection.4.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Smart contract}{33}{subsection.4.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Red Ethereum}{35}{subsection.4.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusiones}{38}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Problemas encontrados}{38}{section.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Dudas iniciales para enfocar el caso de uso}{38}{subsection.5.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Desarrollo desde cero}{38}{subsection.5.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Uso de Alastria}{39}{subsection.5.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}Muchos componentes interdependientes}{39}{subsection.5.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.5}Red remota e Infura}{39}{subsection.5.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Trabajo futuro}{39}{section.5.2}% 

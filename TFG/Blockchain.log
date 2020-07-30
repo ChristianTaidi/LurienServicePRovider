@@ -1,0 +1,939 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.2)  20 JUL 2020 12:02
+entering extended mode
+**./Blockchain.tex
+(Blockchain.tex
+LaTeX2e <2018-12-01>
+(D:\LaTeX\tex/latex/base\report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(D:\LaTeX\tex/latex/base\size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:\LaTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (D:\LaTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+(D:\LaTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(D:\LaTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:\LaTeX\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(D:\LaTeX\tex/generic/oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(D:\LaTeX\tex/generic/ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks16
+
+(D:\LaTeX\tex/latex/geometry\geometry.cfg))
+(D:\LaTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+
+(D:\LaTeX\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\LaTeX\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(D:\LaTeX\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(D:\LaTeX\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(D:\LaTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count92
+)
+(D:\LaTeX\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(D:\LaTeX\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(D:\LaTeX\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+(D:\LaTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count93
+ (D:\LaTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(D:\LaTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (D:\LaTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count94
+\c@listtotal=\count95
+\c@listcount=\count96
+\c@liststart=\count97
+\c@liststop=\count98
+\c@citecount=\count99
+\c@citetotal=\count100
+\c@multicitecount=\count101
+\c@multicitetotal=\count102
+\c@instcount=\count103
+\c@maxnames=\count104
+\c@minnames=\count105
+\c@maxitems=\count106
+\c@minitems=\count107
+\c@citecounter=\count108
+\c@maxcitecounter=\count109
+\c@savedcitecounter=\count110
+\c@uniquelist=\count111
+\c@uniquename=\count112
+\c@refsection=\count113
+\c@refsegment=\count114
+\c@maxextratitle=\count115
+\c@maxextratitleyear=\count116
+\c@maxextraname=\count117
+\c@maxextradate=\count118
+\c@maxextraalpha=\count119
+\c@abbrvpenalty=\count120
+\c@highnamepenalty=\count121
+\c@lownamepenalty=\count122
+\c@maxparens=\count123
+\c@parenlevel=\count124
+\blx@tempcnta=\count125
+\blx@tempcntb=\count126
+\blx@tempcntc=\count127
+\blx@maxsection=\count128
+\blx@maxsegment@0=\count129
+\blx@notetype=\count130
+\blx@parenlevel@text=\count131
+\blx@parenlevel@foot=\count132
+\blx@sectionciteorder@0=\count133
+\blx@entrysetcounter=\count134
+\labelnumberwidth=\skip52
+\labelalphawidth=\skip53
+\biblabelsep=\skip54
+\bibitemsep=\skip55
+\bibnamesep=\skip56
+\bibinitsep=\skip57
+\bibparsep=\skip58
+\bibhang=\skip59
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\blx@langwohyphens=\language82
+\c@mincomprange=\count135
+\c@maxcomprange=\count136
+\c@mincompwidth=\count137
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(D:\LaTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count138
+\c@savedafterword=\count139
+\c@annotator=\count140
+\c@savedannotator=\count141
+\c@author=\count142
+\c@savedauthor=\count143
+\c@bookauthor=\count144
+\c@savedbookauthor=\count145
+\c@commentator=\count146
+\c@savedcommentator=\count147
+\c@editor=\count148
+\c@savededitor=\count149
+\c@editora=\count150
+\c@savededitora=\count151
+\c@editorb=\count152
+\c@savededitorb=\count153
+\c@editorc=\count154
+\c@savededitorc=\count155
+\c@foreword=\count156
+\c@savedforeword=\count157
+\c@holder=\count158
+\c@savedholder=\count159
+\c@introduction=\count160
+\c@savedintroduction=\count161
+\c@namea=\count162
+\c@savednamea=\count163
+\c@nameb=\count164
+\c@savednameb=\count165
+\c@namec=\count166
+\c@savednamec=\count167
+\c@translator=\count168
+\c@savedtranslator=\count169
+\c@shortauthor=\count170
+\c@savedshortauthor=\count171
+\c@shorteditor=\count172
+\c@savedshorteditor=\count173
+\c@labelname=\count174
+\c@savedlabelname=\count175
+\c@institution=\count176
+\c@savedinstitution=\count177
+\c@lista=\count178
+\c@savedlista=\count179
+\c@listb=\count180
+\c@savedlistb=\count181
+\c@listc=\count182
+\c@savedlistc=\count183
+\c@listd=\count184
+\c@savedlistd=\count185
+\c@liste=\count186
+\c@savedliste=\count187
+\c@listf=\count188
+\c@savedlistf=\count189
+\c@location=\count190
+\c@savedlocation=\count191
+\c@organization=\count192
+\c@savedorganization=\count193
+\c@origlocation=\count194
+\c@savedoriglocation=\count195
+\c@origpublisher=\count196
+\c@savedorigpublisher=\count197
+\c@publisher=\count198
+\c@savedpublisher=\count199
+\c@language=\count266
+\c@savedlanguage=\count267
+\c@origlanguage=\count268
+\c@savedoriglanguage=\count269
+\c@pageref=\count270
+\c@savedpageref=\count271
+\shorthandwidth=\skip60
+\shortjournalwidth=\skip61
+\shortserieswidth=\skip62
+\shorttitlewidth=\skip63
+\shortauthorwidth=\skip64
+\shorteditorwidth=\skip65
+\locallabelnumberwidth=\skip66
+\locallabelalphawidth=\skip67
+\localshorthandwidth=\skip68
+\localshortjournalwidth=\skip69
+\localshortserieswidth=\skip70
+\localshorttitlewidth=\skip71
+\localshortauthorwidth=\skip72
+\localshorteditorwidth=\skip73
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(D:\LaTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(D:\LaTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+\c@textcitecount=\count272
+\c@textcitetotal=\count273
+\c@textcitemaxnames=\count274
+\c@biburlbigbreakpenalty=\count275
+\c@biburlbreakpenalty=\count276
+\c@biburlnumpenalty=\count277
+\c@biburlucpenalty=\count278
+\c@biburllcpenalty=\count279
+\biburlbigskip=\muskip11
+\biburlnumskip=\muskip12
+\biburlucskip=\muskip13
+\biburllcskip=\muskip14
+\c@smartand=\count280
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(D:\LaTeX\tex/latex/biblatex/bbx\alphabetic.bbx
+File: alphabetic.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(D:\LaTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count281
+\c@bbx:relatedtotal=\count282
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(D:\LaTeX\tex/latex/biblatex/cbx\alphabetic.cbx
+File: alphabetic.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(D:\LaTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+(D:\LaTeX\tex/generic/babel\babel.sty
+Package: babel 2019/06/03 3.32 The Babel package
+ (D:\LaTeX\tex/generic/babel\switch.def
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\LaTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\LaTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(D:\LaTeX\tex/generic/babel\babel.def
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count283
+\U@D=\dimen111
+ (D:\LaTeX\tex/generic/babel\txtbabel.def)
+\bbl@dirlevel=\count284
+)
+\es@quottoks=\toks17
+\es@quotdepth=\count285
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) (D:\LaTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count286
+\float@exts=\toks18
+\float@box=\box27
+\@float@everytoks=\toks19
+\@floatcapt=\box28
+)
+(D:\LaTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (D:\LaTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (D:\LaTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(D:\LaTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(D:\LaTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(D:\LaTeX\tex/latex/hobsub\hobsub-hyperref.sty
+Package: hobsub-hyperref 2019-11-14
+hobsub not currently supported, see hobsub.dtx to extract original code
+
+(D:\LaTeX\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+(D:\LaTeX\tex/generic/oberdiek\pdfescape.sty
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+)
+(D:\LaTeX\tex/latex/oberdiek\hycolor.sty
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+
+(D:\LaTeX\tex/latex/oberdiek\xcolor-patch.sty
+Package: xcolor-patch 2016/05/16 xcolor patch
+
+(D:\LaTeX\tex/latex/oberdiek\hopatch.sty
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+(D:\LaTeX\tex/latex/oberdiek\letltxmacro.sty
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+))
+(D:\LaTeX\tex/latex/oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+
+(D:\LaTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(D:\LaTeX\tex/generic/oberdiek\intcalc.sty
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+
+(D:\LaTeX\tex/latex/00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count290
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen115
+
+(D:\LaTeX\tex/generic/oberdiek\bitset.sty
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+
+(D:\LaTeX\tex/generic/oberdiek\bigintcalc.sty
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+
+(D:\LaTeX\tex/generic/oberdiek\atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(D:\LaTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+
+(D:\LaTeX\tex/latex/oberdiek\atveryend.sty
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+
+(D:\LaTeX\tex/latex/oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+(D:\LaTeX\tex/generic/oberdiek\uniquecounter.sty
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip74
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 23.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 24.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 25.
+
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(D:\LaTeX\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count297
+\@quotereset=\count298
+(Blockchain.aux
+LaTeX Info: Redefining \sptext on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+)
+\openout1 = `Blockchain.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: 
+* h-part:(L,W,R)=(76.82245pt, 426.79134pt, 76.82245pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=702.78308pt
+* \oddsidemargin=21.6241pt
+* \evensidemargin=4.55246pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Blockchain.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Blockchain.bbl' not found.
+No file Blockchain.bbl.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
+LaTeX Info: Redefining \sptext on input line 33.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+(D:\LaTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count299
+\scratchdimen=\dimen118
+\scratchbox=\box29
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen119
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks21
+) (D:\LaTeX\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(D:\LaTeX\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 33.
+
+(D:\LaTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(D:\LaTeX\tex/latex/oberdiek\refcount.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
+(D:\LaTeX\tex/generic/oberdiek\gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
+ (Blockchain.out)
+(Blockchain.out)
+\@outlinefile=\write4
+\openout4 = `Blockchain.out'.
+
+ (titlepage.tex
+<./images/logo.png, id=203, 192.72pt x 73.4745pt>
+File: ./images/logo.png Graphic file (type png)
+<use ./images/logo.png>
+Package pdftex.def Info: ./images/logo.png  used on input line 4.
+(pdftex.def)             Requested size: 256.0774pt x 97.62901pt.
+ [1
+
+{C:/Users/chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.png>]) (Blockchain.toc
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+
+(D:\LaTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+ (D:\LaTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 ...mberline {4.4}Requisitos}{24}{section.4.4}
+                                                  % [1
+
+])
+\tf@toc=\write5
+\openout5 = `Blockchain.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2] (Blockchain.lof
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lof=\write6
+\openout6 = `Blockchain.lof'.
+
+ [3
+
+]
+Cap\'{\i }tulo 1.
+[4
+
+]
+<./images/Planning.png, id=332, 773.13844pt x 377.91188pt>
+File: ./images/Planning.png Graphic file (type png)
+<use ./images/Planning.png>
+Package pdftex.def Info: ./images/Planning.png  used on input line 81.
+(pdftex.def)             Requested size: 426.79134pt x 208.61911pt.
+ [5 <./images/Planning.png>] [6] [7]
+Cap\'{\i }tulo 2.
+
+LaTeX Warning: Citation 'steiner1993internet' on page 8 undefined on input line
+ 148.
+
+[8
+
+] [9]
+<./images/ledger.jpg, id=355, 602.25pt x 452.69125pt>
+File: ./images/ledger.jpg Graphic file (type jpg)
+<use ./images/ledger.jpg>
+Package pdftex.def Info: ./images/ledger.jpg  used on input line 221.
+(pdftex.def)             Requested size: 180.67639pt x 135.80841pt.
+ [10 <./images/ledger.jpg>]
+<./images/network.png, id=360, 245.91875pt x 206.7725pt>
+File: ./images/network.png Graphic file (type png)
+<use ./images/network.png>
+Package pdftex.def Info: ./images/network.png  used on input line 231.
+(pdftex.def)             Requested size: 172.14194pt x 144.73975pt.
+<./images/immutable.png, id=361, 841.1425pt x 295.1025pt>
+File: ./images/immutable.png Graphic file (type png)
+<use ./images/immutable.png>
+Package pdftex.def Info: ./images/immutable.png  used on input line 239.
+(pdftex.def)             Requested size: 420.57022pt x 147.55087pt.
+ [11 <./images/network.png> <./images/immutable.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
+
+ (D:\LaTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
+<./images/new-block.png, id=368, 1204.5pt x 503.8825pt>
+File: ./images/new-block.png Graphic file (type png)
+<use ./images/new-block.png>
+Package pdftex.def Info: ./images/new-block.png  used on input line 292.
+(pdftex.def)             Requested size: 481.79147pt x 201.54942pt.
+
+Overfull \hbox (55.00014pt too wide) in paragraph at lines 292--293
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]
+<./images/consenso.png, id=375, 801.74532pt x 338.76563pt>
+File: ./images/consenso.png Graphic file (type png)
+<use ./images/consenso.png>
+Package pdftex.def Info: ./images/consenso.png  used on input line 312.
+(pdftex.def)             Requested size: 400.87167pt x 169.38239pt.
+ [13 <./images/new-block.png> <./images/consenso.png>] [14]
+<./images/digital-sign.png, id=386, 1164.35pt x 968.61874pt>
+File: ./images/digital-sign.png Graphic file (type png)
+<use ./images/digital-sign.png>
+Package pdftex.def Info: ./images/digital-sign.png  used on input line 379.
+(pdftex.def)             Requested size: 349.3077pt x 290.58786pt.
+ [15] [16 <./images/digital-sign.png (PNG copy)>] [17] [18]
+Cap\'{\i }tulo 3.
+[19
+
+] [20] [21]
+Cap\'{\i }tulo 4.
+<./images/componentes.png, id=417, 675.7245pt x 440.847pt>
+File: ./images/componentes.png Graphic file (type png)
+<use ./images/componentes.png>
+Package pdftex.def Info: ./images/componentes.png  used on input line 475.
+(pdftex.def)             Requested size: 426.79134pt x 278.44139pt.
+[22
+
+] [23 <./images/componentes.png>] [24] [25]
+<./images/mvn-clean.png, id=445, 872.50969pt x 322.20375pt>
+File: ./images/mvn-clean.png Graphic file (type png)
+<use ./images/mvn-clean.png>
+Package pdftex.def Info: ./images/mvn-clean.png  used on input line 586.
+(pdftex.def)             Requested size: 426.79134pt x 157.6059pt.
+
+Overfull \hbox (11.41803pt too wide) in paragraph at lines 585--587
+[]\OT1/cmr/m/n/12 H [] 
+ []
+
+<./images/mvn-package-result.png, id=446, 627.84563pt x 272.51813pt>
+File: ./images/mvn-package-result.png Graphic file (type png)
+<use ./images/mvn-package-result.png>
+Package pdftex.def Info: ./images/mvn-package-result.png  used on input line 59
+1.
+(pdftex.def)             Requested size: 426.79134pt x 185.2475pt.
+
+Overfull \hbox (11.41803pt too wide) in paragraph at lines 590--592
+[]\OT1/cmr/m/n/12 H [] 
+ []
+
+
+Overfull \hbox (11.85703pt too wide) in paragraph at lines 595--596
+[]\OT1/cmr/m/n/12 Ir a la car-pe-ta \OT1/cmr/m/it/12 tar-get \OT1/cmr/m/n/12 y 
+eje-cu-tar el co-man-do \OT1/cmr/m/it/12 ja-va -jar demo-0.0.1-SNAPSHOT.jar\OT1
+/cmr/m/n/12 . 
+ []
+
+[26 <./images/mvn-clean.png>]
+<./images/config-android.png, id=458, 718.18312pt x 420.06938pt>
+File: ./images/config-android.png Graphic file (type png)
+<use ./images/config-android.png>
+Package pdftex.def Info: ./images/config-android.png  used on input line 624.
+(pdftex.def)             Requested size: 426.79134pt x 249.63992pt.
+<./images/debug-android.jpg, id=459, 1072.005pt x 505.89pt>
+File: ./images/debug-android.jpg Graphic file (type jpg)
+<use ./images/debug-android.jpg>
+Package pdftex.def Info: ./images/debug-android.jpg  used on input line 628.
+(pdftex.def)             Requested size: 298.75262pt x 140.98438pt.
+ [27 <./images/mvn-package-result.png>]
+<./images/login-register.png, id=469, 812.28468pt x 1570.36688pt>
+File: ./images/login-register.png Graphic file (type png)
+<use ./images/login-register.png>
+Package pdftex.def Info: ./images/login-register.png  used on input line 637.
+(pdftex.def)             Requested size: 213.39566pt x 412.55096pt.
+ [28 <./images/config-android.png> <./images/debug-android.jpg>]
+<./images/service-provider.png, id=479, 391.4625pt x 296.60812pt>
+File: ./images/service-provider.png Graphic file (type png)
+<use ./images/service-provider.png>
+Package pdftex.def Info: ./images/service-provider.png  used on input line 644.
+
+(pdftex.def)             Requested size: 341.43436pt x 258.7168pt.
+ [29 <./images/login-register.png>]
+<./images/main-screen.jpg, id=486, 1082.0425pt x 2104.86375pt>
+File: ./images/main-screen.jpg Graphic file (type jpg)
+<use ./images/main-screen.jpg>
+Package pdftex.def Info: ./images/main-screen.jpg  used on input line 650.
+(pdftex.def)             Requested size: 213.39566pt x 415.08778pt.
+ [30 <./images/service-provider.png>]
+<./images/qr-scan.png, id=494, 812.28468pt x 1572.6253pt>
+File: ./images/qr-scan.png Graphic file (type png)
+<use ./images/qr-scan.png>
+Package pdftex.def Info: ./images/qr-scan.png  used on input line 656.
+(pdftex.def)             Requested size: 213.39566pt x 413.14427pt.
+ [31 <./images/main-screen.jpg>]
+<./images/data-required.png, id=500, 737.75626pt x 779.16093pt>
+File: ./images/data-required.png Graphic file (type png)
+<use ./images/data-required.png>
+Package pdftex.def Info: ./images/data-required.png  used on input line 662.
+(pdftex.def)             Requested size: 213.39566pt x 225.36832pt.
+
+[32 <./images/qr-scan.png>]
+Overfull \hbox (13.56816pt too wide) in paragraph at lines 686--687
+[]\OT1/cmr/m/n/12 Ejecutar \OT1/cmr/m/it/12 doc-ker run --rm -v '<ru-ta a la ca
+r-pe-ta con-tracts del pro-yec-to>':'/contracts'
+ []
+
+<./images/smart-contract-compile.png, id=507, 490.83376pt x 137.01187pt>
+File: ./images/smart-contract-compile.png Graphic file (type png)
+<use ./images/smart-contract-compile.png>
+Package pdftex.def Info: ./images/smart-contract-compile.png  used on input lin
+e 689.
+(pdftex.def)             Requested size: 341.43436pt x 95.31181pt.
+[33 <./images/data-required.png>]
+<./images/compiled-contracts.png, id=516, 246.9225pt x 45.16875pt>
+File: ./images/compiled-contracts.png Graphic file (type png)
+<use ./images/compiled-contracts.png>
+Package pdftex.def Info: ./images/compiled-contracts.png  used on input line 69
+4.
+(pdftex.def)             Requested size: 341.43436pt x 62.4611pt.
+<./images/smartcontract-java.png, id=517, 493.845pt x 211.54031pt>
+File: ./images/smartcontract-java.png Graphic file (type png)
+<use ./images/smartcontract-java.png>
+Package pdftex.def Info: ./images/smartcontract-java.png  used on input line 70
+0.
+(pdftex.def)             Requested size: 341.43436pt x 146.25346pt.
+<./images/built-java.png, id=518, 363.60844pt x 36.135pt>
+File: ./images/built-java.png Graphic file (type png)
+<use ./images/built-java.png>
+Package pdftex.def Info: ./images/built-java.png  used on input line 705.
+(pdftex.def)             Requested size: 341.43436pt x 33.93214pt.
+ [34 <./images/smart-contract-compile.png> <./images/compiled-contracts.png> <.
+/images/smartcontract-java.png> <./images/built-java.png>]
+<./images/ganache-ini.png, id=529, 894.34125pt x 598.48593pt>
+File: ./images/ganache-ini.png Graphic file (type png)
+<use ./images/ganache-ini.png>
+Package pdftex.def Info: ./images/ganache-ini.png  used on input line 736.
+(pdftex.def)             Requested size: 341.43436pt x 228.48634pt.
+<./images/truffle-configjs.png, id=530, 585.68813pt x 547.2947pt>
+File: ./images/truffle-configjs.png Graphic file (type png)
+<use ./images/truffle-configjs.png>
+Package pdftex.def Info: ./images/truffle-configjs.png  used on input line 744.
+
+(pdftex.def)             Requested size: 341.43436pt x 319.06795pt.
+<./images/ganache-addtruffle.png, id=531, 451.6875pt x 415.5525pt>
+File: ./images/ganache-addtruffle.png Graphic file (type png)
+<use ./images/ganache-addtruffle.png>
+Package pdftex.def Info: ./images/ganache-addtruffle.png  used on input line 75
+1.
+(pdftex.def)             Requested size: 341.43436pt x 314.13652pt.
+<./images/truffle-config.png, id=532, 431.36156pt x 97.86563pt>
+File: ./images/truffle-config.png Graphic file (type png)
+<use ./images/truffle-config.png>
+Package pdftex.def Info: ./images/truffle-config.png  used on input line 756.
+(pdftex.def)             Requested size: 341.43436pt x 77.4653pt.
+ [35 <./images/ganache-ini.png>] [36 <./images/truffle-configjs.png> <./images/
+ganache-addtruffle.png>] [37 <./images/truffle-config.png>]
+Cap\'{\i }tulo 5.
+[38
+
+] [39]
+
+LaTeX Warning: Empty bibliography on input line 804.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 810.
+[40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 810.
+ (Blockchain.aux
+LaTeX Info: Redefining \sptext on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 810.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 810.
+Package rerunfilecheck Info: File `Blockchain.out' has not changed.
+(rerunfilecheck)             Checksum: B1EAAFBB9C31C4D2F00CD0FD847F4F8C;3450.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Blockchain
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Blockchain.run.xml'.
+\openout1 = `Blockchain.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13876 strings out of 492895
+ 233688 string characters out of 3142328
+ 709926 words of memory out of 3000000
+ 17430 multiletter control sequences out of 15000+200000
+ 11055 words of font info for 41 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,43p,1029b,2169s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><D:/LaTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+D:/LaTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/LaTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><D:/LaTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Blockchain.pdf (41 pages, 3905329 bytes).
+PDF statistics:
+ 624 PDF objects out of 1000 (max. 8388607)
+ 155 named destinations out of 1000 (max. 500000)
+ 531 words of extra memory for PDF output out of 10000 (max. 10000000)
+
